@@ -6,6 +6,16 @@
 • Prints "Invalid book: " + book for all invalid books
   */
 
+// function favoriteBook(favoriteBook, books) {
+//   let book = books.shift();
+//   while (book !== favoriteBook) {
+//     console.log(`Invalid book: ${book}`);
+//     // Read the next book
+//     book = books.shift();
+//   }
+//   console.log("Book found!");
+// }
+
 function favoriteBook(favoriteBook, books) {
   let book = books.shift();
   while (book !== favoriteBook) {

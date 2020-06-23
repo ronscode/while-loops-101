@@ -10,11 +10,17 @@ function minAndMax(lines) {
   let nextLine = lines.shift();
     while (nextLine !== "END" && nextLine !== undefined) {
       let num = Number(nextLine);
-      if (num < min) min = num;
-      if (num > max) max = num;
+      if (num < min) { 
+        min = num;
+      }
+      if (num > max) {
+        max = num;
+      }
       nextLine = lines.shift();
     }
 // TODO: Print the output
-
+    console.log(min,max)
 
 }
+
+minAndMax([10, 20, 30, -5, 'END']);

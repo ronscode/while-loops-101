@@ -19,4 +19,4 @@ function numberProcessor(num, commands) {
   console.log(num); 
 }
 
-numberProcessor(5, ['Inc', 'Inc', "inc", "Inc",  `Dec`, "Inc"]);
+numberProcessor(5, ['Inc', 'Inc', "inc", "Inc", `Dec`, "Inc"]);
